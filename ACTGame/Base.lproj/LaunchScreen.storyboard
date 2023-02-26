@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="8Wi-O4-etb">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Juicy Sweet Story " translatesAutoresizingMaskIntoConstraints="NO" id="9gc-8C-kO0">
+                                <rect key="frame" x="20" y="473.66666666666674" width="388" height="292"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" secondItem="9gc-8C-kO0" secondAttribute="height" multiplier="97:73" id="iIC-S5-aYn"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="xj2-IC-5a0">
+                                <rect key="frame" x="134.66666666666666" y="809.66666666666663" width="158.99999999999997" height="62.333333333333371"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62.5" id="2wf-9A-47p"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" secondItem="xj2-IC-5a0" secondAttribute="height" multiplier="79:31" id="D1q-vG-AXf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lollipop" translatesAutoresizingMaskIntoConstraints="NO" id="LUz-xn-jV4">
+                                <rect key="frame" x="20" y="240.66666666666663" width="388" height="233"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" secondItem="LUz-xn-jV4" secondAttribute="height" multiplier="388:233" id="Ytg-2q-gnc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9gc-8C-kO0" secondAttribute="trailing" constant="20" id="3Sc-dc-kjl"/>
+                            <constraint firstItem="8Wi-O4-etb" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="9d1-Zp-8A9"/>
+                            <constraint firstItem="xj2-IC-5a0" firstAttribute="top" secondItem="9gc-8C-kO0" secondAttribute="bottom" constant="44" id="So9-3a-Ncu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xj2-IC-5a0" secondAttribute="bottom" constant="20" id="SuG-QJ-6o8"/>
+                            <constraint firstItem="LUz-xn-jV4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="buI-On-fLI"/>
+                            <constraint firstItem="8Wi-O4-etb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iB0-25-sZY"/>
+                            <constraint firstAttribute="bottom" secondItem="8Wi-O4-etb" secondAttribute="bottom" id="iNe-RC-dDJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LUz-xn-jV4" secondAttribute="trailing" constant="20" id="j7S-Lw-bsO"/>
+                            <constraint firstItem="9gc-8C-kO0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nMl-zK-WG3"/>
+                            <constraint firstItem="8Wi-O4-etb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pnC-I4-1jJ"/>
+                            <constraint firstItem="xj2-IC-5a0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sP3-Hb-6aI"/>
+                            <constraint firstItem="9gc-8C-kO0" firstAttribute="top" secondItem="LUz-xn-jV4" secondAttribute="bottom" id="xSw-a6-DGl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Juicy Sweet Story " width="350" height="292"/>
+        <image name="background" width="390" height="844"/>
+        <image name="loading" width="159" height="62"/>
+        <image name="lollipop" width="350" height="233"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
