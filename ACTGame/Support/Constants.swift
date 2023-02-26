@@ -9,5 +9,4 @@ struct Constants {
     static let bottomColor = UIColor.hexStringToUIColor(hex: bottonHex)
     static let upperHex = "FF34D0"
     static let bottonHex = "A50081"
-    static let relusText =
 }
