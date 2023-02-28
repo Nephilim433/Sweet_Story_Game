@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,27 +13,27 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="8Wi-O4-etb">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Juicy Sweet Story " translatesAutoresizingMaskIntoConstraints="NO" id="9gc-8C-kO0">
-                                <rect key="frame" x="20" y="473.66666666666674" width="388" height="292"/>
+                                <rect key="frame" x="20" y="443.5" width="374" height="292"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" secondItem="9gc-8C-kO0" secondAttribute="height" multiplier="97:73" id="iIC-S5-aYn"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="xj2-IC-5a0">
-                                <rect key="frame" x="134.66666666666666" y="809.66666666666663" width="158.99999999999997" height="62.333333333333371"/>
+                                <rect key="frame" x="127.5" y="779.5" width="159" height="62.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62.5" id="2wf-9A-47p"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" secondItem="xj2-IC-5a0" secondAttribute="height" multiplier="79:31" id="D1q-vG-AXf"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lollipop" translatesAutoresizingMaskIntoConstraints="NO" id="LUz-xn-jV4">
-                                <rect key="frame" x="20" y="240.66666666666663" width="388" height="233"/>
+                                <rect key="frame" x="20" y="210.5" width="374" height="233"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" secondItem="LUz-xn-jV4" secondAttribute="height" multiplier="388:233" id="Ytg-2q-gnc"/>
                                 </constraints>
